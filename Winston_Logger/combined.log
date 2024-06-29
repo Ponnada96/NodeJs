@@ -1,0 +1,7 @@
+{"level":"warn","message":"Warning Information"}
+{"level":"info","message":"Info Information"}
+{"level":"warn","message":"Warning Information"}
+{"level":"info","message":"Info Information"}
+{"level":"debug","message":"Debug Information"}
+2024-06-29T16:54:34.458Z  warn: Warning Information
+2024-06-29T16:54:34.459Z  info: Info Information
