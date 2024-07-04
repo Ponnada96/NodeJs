@@ -6,8 +6,4 @@ router.get('/:id', (req, res) => {
     res.send(`User Id:  ${userid}`);
 });
 
-router.get('userInfo/:id', (req, res) => {
-    throw new Error("User Info not found");
-})
-
 module.exports = router;
