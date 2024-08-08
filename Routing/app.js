@@ -7,15 +7,16 @@ const indexRoutes = require('./routes/index');
 const userRoutes = require('./routes/user');
 
 //Importing middlewares
-
 const errorHandler = require('./middlewares/errorHandler');
+const logHandler = require('./middlewares/logHandler');
 
 //Middle ware to parse Json bodies
 app.use(express.json());
 
+
 //Use ROutes
 app.use(express.static('public'))
-app.use('/', indexRoutes);
+app.use('/', logHandler, indexRoutes);
 app.use('/user', userRoutes);
 
 

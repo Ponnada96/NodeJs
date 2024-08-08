@@ -1,5 +1,5 @@
 const fs = require("fs").promises;
-
+ 
 async function writeToFile() {
     await fs.writeFile(__dirname + "/text.txt", "Test Data");
     console.log('completed write file async')
@@ -14,7 +14,7 @@ async function deleteFile() {
     await fs.unlink('./text.txt');
 }
 async function isFileExists() {
-    fs.exists('./text.txt', (exists) => console.log(exists
+    fs.e('./text.txt', (exists) => console.log(exists
                  ? "fileExists" 
                  : "file Doest not exists"))
 }

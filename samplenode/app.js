@@ -1,5 +1,8 @@
-let uniqueId = Symbol('id');
-console.log(uniqueId)
-console.log(typeof (undefined))
-let now = new Date();
-console.log(now);
+const express=  require('express');
+const app= express();
+const bodyParse=require('body-parser');
+app.use(bodyParse.json());
+
+
+
+requestAnimationFrame.bodyParse
